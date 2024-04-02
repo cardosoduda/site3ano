@@ -52,6 +52,10 @@ body{
 .botoes{
     display: block;
 }
+.abas-texto{
+    background-color: var(--texto-fundo);
+
+}
 @media screen and(min-width: 768px){
     .botoes{
         display: flex;
@@ -60,5 +64,6 @@ body{
         border-radius: 40px 0 0 0;
     }
     .botao:last-child{
-        border-radius: ;
+        border-radius: 0 40;
     }
+   }
